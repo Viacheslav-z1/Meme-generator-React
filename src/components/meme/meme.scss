@@ -1,0 +1,30 @@
+.meme {
+  &__inner-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 36px;
+  }
+
+  &__input {
+    border: 1px solid #d5d4d8;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  &__btn {
+    background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+    border-radius: 5px;
+    grid-column: 1 / -1;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+    font-weight: 700;
+    transition: all .5s;
+
+    &:hover{
+      transform: scale(1.01);
+    }
+  }
+}
