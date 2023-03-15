@@ -33,3 +33,10 @@
     font-size: 14px;
   }
 }
+
+
+@media (max-width: 430px) {
+  .header__text{
+    display: none;
+  }
+}

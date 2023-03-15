@@ -21,10 +21,32 @@
     color: #fff;
     padding: 10px;
     font-weight: 700;
-    transition: all .5s;
+    transition: all 0.5s;
 
-    &:hover{
+    &:hover {
       transform: scale(1.01);
+    }
+  }
+
+  &__img{
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .meme {
+    &__inner-form {
+      padding: 0;
+      padding-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .meme {
+    &__inner-form {
+     grid-template-columns: repeat(1,1fr);
     }
   }
 }
